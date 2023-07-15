@@ -1800,6 +1800,41 @@ total  -------------------  133m  20/23 ZERO DEATHS
 
 
 --------------------------------------
+# July 15 2023 Day62
+## Lists------------------------------
+- [x] ArrayList             5m    Z
+- [x] Ring Buffer           5m    Z
+## Linke Lists------------------------
+- [x] SinglyLinkedList      6m    Z
+- [x] DoublyLinkedLists     11m   
+- [x] Queue                 4m  
+- [x] Stack                 2m    Z
+### Sort------------------------------
+- [x] QuickSort             3m    Z
+- [x] MergeSort             4m    Z
+- [x] InsertionSort         1m    Z
+- [x] BubbleSort            1m    Z
+#### Search---------------------------
+- [x] BinarySearchList      1m    Z
+- [x] BTBFS                 2m    Z
+#### Tree Traversal-------------------
+- [x] CompareBinaryTrees    1m    Z
+- [x] BFSGraphMatrix        13m   
+- [x] DFSGraphList          6m    
+- [x] DFSOnBST              2m    Z
+- [x] DijkstralList         15m   
+- [x] LRU                   5m    
+- [x] Map                   8m    Z
+- [x] MinHeap               10m   Z
+- [x] Trie                  15m   Z
+#### Challenge-----------------------
+- [x] MazeSolver            10m   
+- [x] TwoCrystalBalls       2m    Z
+total  -------------------  132m  16/23 ZERO DEATHS
+--------------------------------------
+
+
+--------------------------------------
 # New Day
 ## Lists------------------------------
 - [ ] ArrayList             

@@ -14,8 +14,7 @@ export default class MinHeap {
   }
   delete(): number {
     const out = this.data[0]
-    if (out == undefined) return -1
-
+    if (out === undefined) return -1
     this.length--
     if (this.length === 0) {
       this.data = []
@@ -26,11 +25,11 @@ export default class MinHeap {
     this.heapifyDown(0)
     return out
   }
+
   private heapifyUp(idx: number): void {
     if (idx === 0) return
     const [parent, parentVal] = this.parent(idx)
     const childVal = this.data[idx]
-
     if (parentVal > childVal) {
       this.data[idx] = parentVal
       this.data[parent] = childVal
@@ -40,16 +39,16 @@ export default class MinHeap {
   private heapifyDown(idx: number): void {
     const [left, leftVal] = this.left(idx)
     const [right, rightVal] = this.right(idx)
-    if (idx >= this.length || left >= this.length) return
-    const parentVal = this.data[idx]
+    if (left >= this.length || idx >= this.length) return
 
+    const parentVal = this.data[idx]
     if (parentVal > leftVal && rightVal > leftVal) {
-      this.data[idx] = leftVal
       this.data[left] = parentVal
+      this.data[idx] = leftVal
       this.heapifyDown(left)
     } else if (parentVal > rightVal && leftVal > rightVal) {
-      this.data[idx] = rightVal
       this.data[right] = parentVal
+      this.data[idx] = rightVal
       this.heapifyDown(right)
     }
   }
