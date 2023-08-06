@@ -19,4 +19,8 @@ test("RingBuffer", function () {
   expect(buffer.get(2)).toEqual(12)
   expect(buffer.get(1)).toEqual(9)
   expect(buffer.get(0)).toEqual(42)
+
+  buffer.push(3)
+  buffer.push(4)
+  buffer.push(5)
 })
