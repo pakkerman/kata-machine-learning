@@ -22,10 +22,14 @@ test("Trie", function () {
   trie.insert("bar")
   trie.insert("cat")
 
+  console.log(trie.find(""))
+
   expect(trie.find("fo").sort()).toEqual(["foo", "fool", "foolish"])
 
   trie.delete("fool")
   trie.delete("cat")
 
   expect(trie.find("fo").sort()).toEqual(["foo", "foolish"])
+
+  console.log(trie.find(""))
 })
