@@ -32,4 +32,9 @@ test("Trie", function () {
   expect(trie.find("fo").sort()).toEqual(["foo", "foolish"])
 
   console.log(trie.find(""))
+
+  // added test to make sure it will delete unworded nodes
+  trie.delete("foo")
+  trie.delete("foolish")
+  expect(trie.find("bar").sort()).toEqual(["bar"])
 })

@@ -1973,6 +1973,41 @@ total  -------------------  XXm   XX ZERO DEATHS
 
 
 --------------------------------------
+# Aug 19 Day67
+## Lists------------------------------
+- [x] ArrayList             8m    Z  
+- [x] Ring Buffer           5m    Z
+## Linke Lists------------------------
+- [x] SinglyLinkedList      7m    Z
+- [x] DoublyLinkedLists     3m    Z
+- [x] Queue                 5m    Z
+- [x] Stack                 2m    Z
+### Sort------------------------------
+- [x] QuickSort             3m    Z
+- [x] MergeSort             3m    Z
+- [x] InsertionSort         1m    Z
+- [x] BubbleSort            1m    Z
+#### Search---------------------------
+- [x] BinarySearchList      1m    Z
+- [x] BTBFS                 1m    Z
+#### Tree Traversal-------------------
+- [x] CompareBinaryTrees    1m    Z
+- [x] BFSGraphMatrix        3m    Z
+- [x] DFSGraphList          2m    Z
+- [x] DFSOnBST              2m    Z   
+- [x] DijkstralList         28m       with minheap
+- [x] LRU                   5m    Z
+- [x] Map                   14m   Z
+- [x] MinHeap               8m    Z
+- [x] Trie                  17m   Z
+#### Challenge-----------------------
+- [x] MazeSolver            6m    Z
+- [x] TwoCrystalBalls       2m    Z
+total  -------------------  128m   XX ZERO DEATHS
+--------------------------------------
+
+
+--------------------------------------
 # New Day
 ## Lists------------------------------
 - [ ] ArrayList             
