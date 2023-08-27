@@ -37,4 +37,5 @@ test("Trie", function () {
   trie.delete("foo")
   trie.delete("foolish")
   expect(trie.find("bar").sort()).toEqual(["bar"])
+  console.log(trie.find(""))
 })

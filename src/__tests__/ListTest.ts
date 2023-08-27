@@ -53,8 +53,8 @@ export function test_list(list: List<number>): void {
 }
 
 function printlist(list: List<number>): (number | undefined)[] {
-  const out = []
-  for (let i = 0; i < 5; i++) {
+  const out: (number | undefined)[] = []
+  for (let i = 0; i < list.length; i++) {
     out.push(list.get(i))
   }
   return out

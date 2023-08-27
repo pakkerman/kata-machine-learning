@@ -20,7 +20,11 @@ test("RingBuffer", function () {
   expect(buffer.get(1)).toEqual(9)
   expect(buffer.get(0)).toEqual(42)
 
+  // overwrite test
   buffer.push(3)
   buffer.push(4)
   buffer.push(5)
+  expect(buffer.get(2)).toEqual(5)
+  expect(buffer.get(1)).toEqual(4)
+  expect(buffer.get(0)).toEqual(3)
 })

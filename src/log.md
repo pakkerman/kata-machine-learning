@@ -2008,6 +2008,40 @@ total  -------------------  128m   XX ZERO DEATHS
 
 
 --------------------------------------
+# Aug 27 Day68
+## Lists------------------------------
+- [x] ArrayList             10    Z
+- [x] Ring Buffer           7     Z
+## Linke Lists------------------------
+- [x] SinglyLinkedList      15    tried to overload the function removeAt, but fail, because the types are predefined, need to look into how modify 
+- [x] DoublyLinkedLists     10    
+- [x] Queue                 3   
+- [x] Stack                 3     Z
+### Sort------------------------------
+- [x] QuickSort             4   
+- [x] MergeSort             5     
+- [x] InsertionSort         1     Z
+- [x] BubbleSort            2     Z
+#### Search---------------------------
+- [x] BinarySearchList      2     Z
+- [x] BTBFS                 2     Z
+#### Tree Traversal-------------------
+- [x] CompareBinaryTrees    1     Z
+- [x] BFSGraphMatrix        4     Z
+- [x] DFSGraphList          4     Z
+- [x] DFSOnBST              2     Z
+- [x] DijkstralList         5     Z
+- [x] LRU                   10    Z
+- [x] Map                   13    Z
+- [x] MinHeap               15    Z
+- [x] Trie                  22    
+#### Challenge-----------------------
+- [x] MazeSolver            5m    Z
+- [x] TwoCrystalBalls       2m    Z
+total  -------------------  140m   XX ZERO DEATHS
+--------------------------------------
+
+--------------------------------------
 # New Day
 ## Lists------------------------------
 - [ ] ArrayList             
