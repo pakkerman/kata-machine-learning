@@ -1,6 +1,6 @@
 export default class MinHeap {
   public length: number
-  public data: Array<number>
+  public data: number[]
 
   constructor() {
     this.length = 0
@@ -26,10 +26,11 @@ export default class MinHeap {
     this.heapifyDown(0)
     return out
   }
+
   private heapifyUp(idx: number): void {
     if (idx === 0) return
-    const [parent, parentVal] = this.parent(idx)
 
+    const [parent, parentVal] = this.parent(idx)
     const childVal = this.data[idx]
     if (parentVal > childVal) {
       this.data[idx] = parentVal
@@ -37,10 +38,11 @@ export default class MinHeap {
       this.heapifyUp(parent)
     }
   }
+
   private heapifyDown(idx: number): void {
     const [left, leftVal] = this.left(idx)
     const [right, rightVal] = this.right(idx)
-    if (idx >= this.length || left >= this.length) return
+    if (left >= this.length || idx >= this.length) return
 
     const parentVal = this.data[idx]
 
@@ -55,15 +57,15 @@ export default class MinHeap {
     }
   }
 
-  private parent(idx: number): [number, number] {
+  private parent(idx: number): [idx: number, val: number] {
     const i = Math.floor((idx - 1) / 2)
     return [i, this.data[i]]
   }
-  private left(idx: number): [number, number] {
+  private left(idx: number): [idx: number, val: number] {
     const i = idx * 2 + 1
     return [i, this.data[i]]
   }
-  private right(idx: number): [number, number] {
+  private right(idx: number): [idx: number, val: number] {
     const i = idx * 2 + 2
     return [i, this.data[i]]
   }
