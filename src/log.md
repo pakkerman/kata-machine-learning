@@ -2112,36 +2112,36 @@ total  -------------------  161m   XX ZERO DEATHS
 
 
 --------------------------------------
-# New Day
+# Sep 16 Day71
 ## Lists------------------------------
-- [ ] ArrayList             
-- [ ] Ring Buffer           
+- [x] ArrayList             9   
+- [x] Ring Buffer           5
 ## Linke Lists------------------------
-- [ ] SinglyLinkedList      
-- [ ] DoublyLinkedLists     
-- [ ] Queue                 
-- [ ] Stack                 
+- [x] SinglyLinkedList      8   Z
+- [x] DoublyLinkedLists     6   Z
+- [x] Queue                 2   Z
+- [x] Stack                 2   Z
 ### Sort------------------------------
-- [ ] QuickSort             
-- [ ] MergeSort             
-- [ ] InsertionSort         
-- [ ] BubbleSort            
+- [x] QuickSort             4       
+- [x] MergeSort             3   Z
+- [x] InsertionSort         2   Z
+- [x] BubbleSort            1   Z
 #### Search---------------------------
-- [ ] BinarySearchList      
-- [ ] BTBFS                 
+- [x] BinarySearchList      1
+- [x] BTBFS                 1   Z
 #### Tree Traversal-------------------
-- [ ] CompareBinaryTrees    
-- [ ] BFSGraphMatrix         
-- [ ] DFSGraphList          
-- [ ] DFSOnBST              
-- [ ] DijkstralList         
-- [ ] LRU                   
-- [ ] Map                   
-- [ ] MinHeap               
-- [ ] Trie                  
+- [x] CompareBinaryTrees    2   Z
+- [x] BFSGraphMatrix        7
+- [x] DFSGraphList          5   Z
+- [x] DFSOnBST              2 
+- [x] DijkstralList         5   Z
+- [x] LRU                   10  Z
+- [x] Map                   18
+- [x] MinHeap               9   Z
+- [x] Trie                  9   Z
 #### Challenge-----------------------
-- [ ] MazeSolver            
-- [ ] TwoCrystalBalls       
-total  -------------------  XXm   XX ZERO DEATHS
+- [x] MazeSolver            5   Z
+- [x] TwoCrystalBalls       1   Z
+total  -------------------  117m   XX ZERO DEATHS
 --------------------------------------
 
