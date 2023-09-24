@@ -2145,3 +2145,73 @@ total  -------------------  161m   XX ZERO DEATHS
 total  -------------------  117m   XX ZERO DEATHS
 --------------------------------------
 
+--------------------------------------
+# Sep 24 Day72
+## Lists------------------------------
+- [x] ArrayList             12    Z
+- [x] Ring Buffer           6     Z
+## Linke Lists------------------------
+- [x] SinglyLinkedList      3     Z 
+- [x] DoublyLinkedLists     7     Z
+- [x] Queue                 3     Z
+- [x] Stack                 4     Z
+### Sort------------------------------
+- [x] QuickSort             4     Z
+- [x] MergeSort             4     Z
+- [x] InsertionSort         2     Z
+- [x] BubbleSort            1     Z
+#### Search---------------------------
+- [x] BinarySearchList      3     Z
+- [x] BTBFS                 2     Z
+#### Tree Traversal-------------------
+- [x] CompareBinaryTrees    2     Z
+- [x] BFSGraphMatrix        6     
+- [x] DFSGraphList          9   
+- [x] DFSOnBST              2     Z
+- [x] DijkstralList         10
+- [x] LRU                   17    
+- [x] Map                   14    Z
+- [x] MinHeap               10    Z
+- [x] Trie                  10    Z
+#### Challenge-----------------------
+- [x] MazeSolver            8    
+- [x] TwoCrystalBalls       2     Z
+total  -------------------  141m   XX ZERO DEATHS
+--------------------------------------
+
+
+
+
+--------------------------------------
+# New Day template
+## Lists------------------------------
+- [ ] ArrayList             
+- [ ] Ring Buffer           
+## Linke Lists------------------------
+- [ ] SinglyLinkedList      
+- [ ] DoublyLinkedLists     
+- [ ] Queue                 
+- [ ] Stack                 
+### Sort------------------------------
+- [ ] QuickSort             
+- [ ] MergeSort             
+- [ ] InsertionSort         
+- [ ] BubbleSort            
+#### Search---------------------------
+- [ ] BinarySearchList      
+- [ ] BTBFS                 
+#### Tree Traversal-------------------
+- [ ] CompareBinaryTrees    
+- [ ] BFSGraphMatrix         
+- [ ] DFSGraphList          
+- [ ] DFSOnBST              
+- [ ] DijkstralList         
+- [ ] LRU                   
+- [ ] Map                   
+- [ ] MinHeap               
+- [ ] Trie                  
+#### Challenge-----------------------
+- [ ] MazeSolver            
+- [ ] TwoCrystalBalls       
+total  -------------------  XXm   XX ZERO DEATHS
+--------------------------------------
