@@ -2183,6 +2183,74 @@ total  -------------------  141m   XX ZERO DEATHS
 
 
 --------------------------------------
+# Sep 30 Day73
+## Lists------------------------------
+- [x] ArrayList             8   Z
+- [x] Ring Buffer           9   Z
+## Linke Lists------------------------
+- [x] SinglyLinkedList      8   Z
+- [x] DoublyLinkedLists     7   Z
+- [x] Queue                 3   
+- [x] Stack                 2   Z
+### Sort------------------------------
+- [x] QuickSort             3   Z
+- [x] MergeSort             4   Z
+- [x] InsertionSort         2 
+- [x] BubbleSort            1   Z
+#### Search---------------------------
+- [x] BinarySearchList      2   
+- [x] BTBFS                 1   Z
+#### Tree Traversal-------------------
+- [x] CompareBinaryTrees    1   Z
+- [x] BFSGraphMatrix        3   Z
+- [x] DFSGraphList          3   Z
+- [x] DFSOnBST              2   
+- [x] DijkstralList         5   Z
+- [x] LRU                   12  Z
+- [x] Map                   15  Z
+- [x] MinHeap               11  
+- [x] Trie                  10  Z
+#### Challenge-----------------------
+- [x] MazeSolver            5   Z
+- [x] TwoCrystalBalls       2   Z
+total  -------------------  119m   XX ZERO DEATHS
+--------------------------------------
+
+--------------------------------------
+# New Day74
+## Lists------------------------------
+- [ ] ArrayList             
+- [ ] Ring Buffer           
+## Linke Lists------------------------
+- [ ] SinglyLinkedList      
+- [ ] DoublyLinkedLists     
+- [ ] Queue                 
+- [ ] Stack                 
+### Sort------------------------------
+- [ ] QuickSort             
+- [ ] MergeSort             
+- [ ] InsertionSort         
+- [ ] BubbleSort            
+#### Search---------------------------
+- [ ] BinarySearchList      
+- [ ] BTBFS                 
+#### Tree Traversal-------------------
+- [ ] CompareBinaryTrees    
+- [ ] BFSGraphMatrix         
+- [ ] DFSGraphList          
+- [ ] DFSOnBST              
+- [ ] DijkstralList         
+- [ ] LRU                   
+- [ ] Map                   
+- [ ] MinHeap               
+- [ ] Trie                  
+#### Challenge-----------------------
+- [ ] MazeSolver            
+- [ ] TwoCrystalBalls       
+total  -------------------  XXm   XX ZERO DEATHS
+--------------------------------------
+
+--------------------------------------
 # New Day template
 ## Lists------------------------------
 - [ ] ArrayList             
