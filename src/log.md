@@ -2217,37 +2217,37 @@ total  -------------------  119m   XX ZERO DEATHS
 --------------------------------------
 
 --------------------------------------
-# New Day74
+# Oct 06 Day74
 ## Lists------------------------------
-- [ ] ArrayList             
-- [ ] Ring Buffer           
+- [x] ArrayList             10  Z
+- [x] Ring Buffer           5   Z
 ## Linke Lists------------------------
-- [ ] SinglyLinkedList      
-- [ ] DoublyLinkedLists     
-- [ ] Queue                 
-- [ ] Stack                 
+- [x] SinglyLinkedList      8   Z
+- [x] DoublyLinkedLists     7   Z
+- [x] Queue                 2   
+- [x] Stack                 3   Z
 ### Sort------------------------------
-- [ ] QuickSort             
-- [ ] MergeSort             
-- [ ] InsertionSort         
-- [ ] BubbleSort            
+- [x] QuickSort             5   Implement Medium-of-three for choosing pivot.
+- [x] MergeSort             4   Z
+- [x] InsertionSort         1   Z
+- [x] BubbleSort            1   Z
 #### Search---------------------------
-- [ ] BinarySearchList      
-- [ ] BTBFS                 
+- [x] BinarySearchList      2   Z
+- [x] BTBFS                 1   Z
 #### Tree Traversal-------------------
-- [ ] CompareBinaryTrees    
-- [ ] BFSGraphMatrix         
-- [ ] DFSGraphList          
-- [ ] DFSOnBST              
-- [ ] DijkstralList         
-- [ ] LRU                   
-- [ ] Map                   
-- [ ] MinHeap               
-- [ ] Trie                  
+- [x] CompareBinaryTrees    1   Z
+- [x] BFSGraphMatrix        3   Z 
+- [x] DFSGraphList          3   Z
+- [x] DFSOnBST              1   Z
+- [x] DijkstralList         8   
+- [x] LRU                   7   Z
+- [x] Map                   13  Z
+- [x] MinHeap               7   Z
+- [x] Trie                  13  
 #### Challenge-----------------------
-- [ ] MazeSolver            
-- [ ] TwoCrystalBalls       
-total  -------------------  XXm   XX ZERO DEATHS
+- [x] MazeSolver            3   Z
+- [x] TwoCrystalBalls       2   Z
+total  -------------------  110m   XX ZERO DEATHS
 --------------------------------------
 
 --------------------------------------
