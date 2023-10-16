@@ -49,7 +49,10 @@ export function test_list(list: List<number>): void {
   expect(list.get(0)).toEqual(7)
   // 7 >> 5
 
-  printlist(list)
+  console.log("checkpoint, [7 >> 5]", printlist(list))
+
+  expect(list.remove(5)).toEqual(5)
+  console.log("checkpoint, [7 >> 5]", printlist(list))
 }
 
 function printlist(list: List<number>): (number | undefined)[] {

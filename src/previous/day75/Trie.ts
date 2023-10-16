@@ -18,7 +18,6 @@ export default class Trie {
     }
     curr.word = item
   }
-
   delete(item: string): void {
     deleteWord(this.root)
 
@@ -49,9 +48,8 @@ export default class Trie {
     getWords(curr)
     return out
 
-    function getWords(curr: TrieNode) {
+    function getWords(curr: TrieNode): void {
       if (curr.word) out.push(curr.word)
-
       for (const child of curr.children.values()) {
         getWords(child)
       }

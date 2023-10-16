@@ -2251,7 +2251,41 @@ total  -------------------  110m   XX ZERO DEATHS
 --------------------------------------
 
 --------------------------------------
-# New Day template
+# Oct 14 Day75
+## Lists------------------------------
+- [x] ArrayList             10    Z
+- [x] Ring Buffer           8     Z
+## Linke Lists------------------------
+- [x] SinglyLinkedList      8     
+- [x] DoublyLinkedLists     15  
+- [x] Queue                 4     Z
+- [x] Stack                 4     Z
+### Sort------------------------------
+- [x] QuickSort             5     Z
+- [x] MergeSort             4     Z
+- [x] InsertionSort         1     Z
+- [x] BubbleSort            1     Z
+#### Search---------------------------
+- [x] BinarySearchList      3     Z
+- [x] BTBFS                 3     Z
+#### Tree Traversal-------------------
+- [x] CompareBinaryTrees    1     Z
+- [x] BFSGraphMatrix        5     
+- [x] DFSGraphList          3     Z
+- [x] DFSOnBST              2     Z
+- [x] DijkstralList         10    Z
+- [x] LRU                   8     Z
+- [x] Map                   15    
+- [x] MinHeap               9     Z
+- [x] Trie                  27
+#### Challenge-----------------------
+- [x] MazeSolver            5   
+- [x] TwoCrystalBalls       1     Z
+total  -------------------  152m   XX ZERO DEATHS
+--------------------------------------
+
+--------------------------------------
+# new day
 ## Lists------------------------------
 - [ ] ArrayList             
 - [ ] Ring Buffer           
@@ -2270,7 +2304,7 @@ total  -------------------  110m   XX ZERO DEATHS
 - [ ] BTBFS                 
 #### Tree Traversal-------------------
 - [ ] CompareBinaryTrees    
-- [ ] BFSGraphMatrix         
+- [ ] BFSGraphMatrix        
 - [ ] DFSGraphList          
 - [ ] DFSOnBST              
 - [ ] DijkstralList         
@@ -2281,5 +2315,5 @@ total  -------------------  110m   XX ZERO DEATHS
 #### Challenge-----------------------
 - [ ] MazeSolver            
 - [ ] TwoCrystalBalls       
-total  -------------------  XXm   XX ZERO DEATHS
+total  -------------------  xxm   XX ZERO DEATHS
 --------------------------------------
