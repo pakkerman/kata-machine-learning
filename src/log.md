@@ -2353,6 +2353,40 @@ total  -------------------  ??m   XX ZERO DEATHS
 --------------------------------------
 
 --------------------------------------
+# NOV 13 Day78
+## Lists------------------------------
+- [x] ArrayList             9 
+- [x] Ring Buffer           10      
+## Linke Lists------------------------
+- [x] SinglyLinkedList      7     Z
+- [x] DoublyLinkedLists     7     Z
+- [x] Queue                 4     
+- [x] Stack                 2     Z
+### Sort------------------------------
+- [x] QuickSort             10
+- [x] MergeSort             6   
+- [x] InsertionSort         1     Z
+- [x] BubbleSort            1     Z
+#### Search---------------------------
+- [x] BinarySearchList      2     Z
+- [x] BTBFS                 1     Z
+#### Tree Traversal-------------------
+- [x] CompareBinaryTrees    1     Z
+- [x] BFSGraphMatrix        7
+- [x] DFSGraphList          3     Z
+- [x] DFSOnBST              2     Z
+- [x] DijkstralList         4     Z
+- [x] LRU                   6     Z
+- [x] Map                   12    Z
+- [x] MinHeap               10    Z
+- [x] Trie                  10    Z
+#### Challenge-----------------------
+- [x] MazeSolver            6
+- [x] TwoCrystalBalls       10    11  New bun test
+total  -------------------  115   XX ZERO DEATHS
+--------------------------------------
+
+--------------------------------------
 # new day
 ## Lists------------------------------
 - [ ] ArrayList             
@@ -2385,7 +2419,6 @@ total  -------------------  ??m   XX ZERO DEATHS
 - [ ] TwoCrystalBalls       
 total  -------------------  xxm   XX ZERO DEATHS
 --------------------------------------
-
 --------------------------------------
 # new day
 ## Lists------------------------------
