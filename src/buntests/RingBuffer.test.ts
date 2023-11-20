@@ -27,6 +27,7 @@ describe("RingBuffer", () => {
     expect(buffer.pop()).toBe(4)
     expect(buffer.length).toBe(0)
   })
+
   test("Get", () => {
     expect(buffer.get(0)).toBe(undefined)
     buffer.push(1)
