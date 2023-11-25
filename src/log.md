@@ -2420,25 +2420,57 @@ total  -------------------  115   XX ZERO DEATHS
 total  -------------------  158m   XX ZERO DEATHS
 --------------------------------------
 
+## NOV 25 Day 80
+#### Lists-----------------------------
+- [x] ArrayList             11    
+- [x] Ring Buffer           12    
+#### Linke Lists-----------------------
+- [x] SinglyLinkedList      10    
+- [x] DoublyLinkedLists     7     Z
+- [x] Queue                 4   
+- [x] Stack                 4   
+#### Sort------------------------------
+- [x] QuickSort             4 
+- [x] MergeSort             3     Z
+- [x] InsertionSort         1 
+- [x] BubbleSort            1
+#### Search----------------------------
+- [x] BinarySearchList      1     Z
+- [x] BTBFS                 2     Z
+#### Tree Traversal--------------------
+- [x] CompareBinaryTrees    1     Z
+- [x] BFSGraphMatrix        4     Z
+- [x] DFSGraphList          3     Z
+- [x] DFSOnBST              4     
+- [x] DijkstralList         4     Z
+- [x] LRU                   7     Z
+- [x] Map                   13    
+- [x] MinHeap               6     Z
+- [x] Trie                  10    Z
+#### Challenge------------------------
+- [x] MazeSolver            5     Z
+- [x] TwoCrystalBalls       1     Z
+#### Total  -------------------  118m 
 
-# new day
-## Lists------------------------------
+--------------------------------------
+### new day
+#### Lists------------------------------
 - [ ] ArrayList             
 - [ ] Ring Buffer           
-## Linke Lists------------------------
+#### Linke Lists------------------------
 - [ ] SinglyLinkedList      
 - [ ] DoublyLinkedLists     
 - [ ] Queue                 
 - [ ] Stack                 
-### Sort------------------------------
+#### Sort-------------------------------
 - [ ] QuickSort             
 - [ ] MergeSort             
 - [ ] InsertionSort         
 - [ ] BubbleSort            
-#### Search---------------------------
+#### Search-----------------------------
 - [ ] BinarySearchList      
 - [ ] BTBFS                 
-#### Tree Traversal-------------------
+#### Tree Traversal---------------------
 - [ ] CompareBinaryTrees    
 - [ ] BFSGraphMatrix        
 - [ ] DFSGraphList          
@@ -2448,41 +2480,10 @@ total  -------------------  158m   XX ZERO DEATHS
 - [ ] Map                   
 - [ ] MinHeap               
 - [ ] Trie                  
-#### Challenge-----------------------
+#### Challenge-------------------------
 - [ ] MazeSolver            
 - [ ] TwoCrystalBalls       
-total  -------------------  xxm   XX ZERO DEATHS
---------------------------------------
---------------------------------------
-# new day
-## Lists------------------------------
-- [ ] ArrayList             
-- [ ] Ring Buffer           
-## Linke Lists------------------------
-- [ ] SinglyLinkedList      
-- [ ] DoublyLinkedLists     
-- [ ] Queue                 
-- [ ] Stack                 
-### Sort------------------------------
-- [ ] QuickSort             
-- [ ] MergeSort             
-- [ ] InsertionSort         
-- [ ] BubbleSort            
-#### Search---------------------------
-- [ ] BinarySearchList      
-- [ ] BTBFS                 
-#### Tree Traversal-------------------
-- [ ] CompareBinaryTrees    
-- [ ] BFSGraphMatrix        
-- [ ] DFSGraphList          
-- [ ] DFSOnBST              
-- [ ] DijkstralList         
-- [ ] LRU                   
-- [ ] Map                   
-- [ ] MinHeap               
-- [ ] Trie                  
-#### Challenge-----------------------
-- [ ] MazeSolver            
-- [ ] TwoCrystalBalls       
-total  -------------------  xxm   XX ZERO DEATHS
+#### total  -------------------  xxm   XX ZERO DEATHS
+
+
 --------------------------------------
