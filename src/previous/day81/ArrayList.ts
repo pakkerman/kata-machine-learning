@@ -13,7 +13,7 @@ export default class ArrayList<T> {
     this.length++
     this.resize()
 
-    for (let i = this.length - 1; i > 0; i--) {
+    for (let i = this.length + 1; i > 0; i--) {
       this.data[i] = this.data[i - 1]
     }
     this.data[0] = item
@@ -45,8 +45,8 @@ export default class ArrayList<T> {
     return this.data[idx]
   }
   removeAt(idx: number): T | undefined {
-    const out = this.data[idx]
-    if (this.data[idx] == undefined) return undefined
+    const out = this.get(idx)
+    if (out == undefined) return undefined
 
     this.length--
     if (this.length === 0) {
@@ -66,11 +66,12 @@ export default class ArrayList<T> {
     if (this.length <= this.capacity) return
 
     const data = this.data
-    this.capacity *= 2
-    this.data = new Array(this.capacity).fill(undefined)
+    this.data = new Array((this.capacity *= 2)).fill(undefined)
+
     for (let i = 0; i < data.length; i++) {
       this.data[i] = data[i]
     }
-    return
+
+    console.log("resized")
   }
 }
