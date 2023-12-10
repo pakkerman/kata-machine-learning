@@ -2451,8 +2451,8 @@ total  -------------------  158m   XX ZERO DEATHS
 - [x] MazeSolver            5     Z
 - [x] TwoCrystalBalls       1     Z
 #### Total  -------------------  118m 
-
 --------------------------------------
+
 ### DEC 02 Day 81
 #### Lists------------------------------
 - [x] ArrayList             13
@@ -2484,9 +2484,40 @@ total  -------------------  158m   XX ZERO DEATHS
 - [x] MazeSolver            4     Z
 - [x] TwoCrystalBalls       1     Z
 #### total  --------------  125 mins   XX ZERO DEATHS
-
-
 --------------------------------------
+
+
+### DEC 09 Day 82
+#### Lists------------------------------
+- [x] ArrayList             10    Z
+- [x] Ring Buffer           5     Z
+#### Linke Lists------------------------
+- [x] SinglyLinkedList      3     Z
+- [x] DoublyLinkedLists     7			Z
+- [x] Queue                 3			Z
+- [x] Stack                 3			Z
+#### Sort-------------------------------
+- [x] QuickSort             10		
+- [x] MergeSort             3			
+- [x] InsertionSort         1			Z
+- [x] BubbleSort            2			
+#### Search-----------------------------
+- [x] BinarySearchList      2			The hi is exclusive so we need idx + 1 for hi
+- [x] BTBFS                 2			Z
+#### Tree Traversal---------------------
+- [x] CompareBinaryTrees    2			Z
+- [x] BFSGraphMatrix        5			
+- [x] DFSGraphList          4             
+- [x] DFSOnBST              2			
+- [x] DijkstralList         90    fucking around, and find some more out
+- [x] LRU                   8     Z
+- [x] Map                   10    Z
+- [x] MinHeap               10    Z
+- [x] Trie                  9     Z
+#### Challenge-------------------------
+- [x] MazeSolver            5     Z
+- [x] TwoCrystalBalls       2     Z
+#### total  -------------------  190m   XX ZERO DEATHS
 
 --------------------------------------
 ### new day
