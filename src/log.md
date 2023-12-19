@@ -2520,6 +2520,40 @@ total  -------------------  158m   XX ZERO DEATHS
 #### total  -------------------  190m   XX ZERO DEATHS
 
 --------------------------------------
+### DEC 19 Day 83
+#### Lists------------------------------
+- [x] ArrayList             10    
+- [x] Ring Buffer           10    
+#### Linke Lists------------------------
+- [x] SinglyLinkedList      10    Z
+- [x] DoublyLinkedLists     8     Z
+- [x] Queue                 3     Z
+- [x] Stack                 3     Z
+#### Sort-------------------------------
+- [x] QuickSort             3     Z
+- [x] MergeSort             3     Z
+- [x] InsertionSort         1     Z
+- [x] BubbleSort            1     Z
+#### Search-----------------------------
+- [x] BinarySearchList      1     Z
+- [x] BTBFS                 2   
+#### Tree Traversal---------------------
+- [x] CompareBinaryTrees    1     Z
+- [x] BFSGraphMatrix        4     Z
+- [x] DFSGraphList          3     Z
+- [x] DFSOnBST              1     Z
+- [x] DijkstralList         21    
+- [x] LRU                   10    Z
+- [x] Map                   10    Z  // this thing sucks, lots of empty buckets, fix it next week bro
+- [x] MinHeap               15    
+- [x] Trie                  8     Z
+#### Challenge-------------------------
+- [x] MazeSolver            5     Z
+- [x] TwoCrystalBalls       1     Z
+#### total  -------------------  134m
+
+
+--------------------------------------
 ### new day
 #### Lists------------------------------
 - [ ] ArrayList             

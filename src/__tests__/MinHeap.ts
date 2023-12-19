@@ -34,6 +34,7 @@ test("min heap", function () {
   // of the array to be off by one compared to the class's reported length. Typically, when the length
   // reaches 0, a new array is declared. Despite this internal discrepancy, external methods for
   // output and consumption will function correctly.
+  console.log(heap.data)
   expect(heap.data.length).toEqual(1)
 
   expect(heap.delete()).toEqual(420)
