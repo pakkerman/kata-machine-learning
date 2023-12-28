@@ -2554,6 +2554,42 @@ total  -------------------  158m   XX ZERO DEATHS
 
 
 --------------------------------------
+### DEC 28 Day 84
+#### Lists------------------------------
+- [x] ArrayList             12        
+- [x] Ring Buffer           5       Z
+#### Linke Lists------------------------
+- [x] SinglyLinkedList      13      
+- [x] DoublyLinkedLists     10      
+- [x] Queue                 3       Z
+- [x] Stack                 3       Z
+#### Sort-------------------------------
+- [x] QuickSort             10      rewrite test using bun
+- [x] MergeSort             4       
+- [x] InsertionSort         2       rewrite test using bun
+- [x] BubbleSort            1       rewrite test using bun
+#### Search-----------------------------
+- [x] BinarySearchList      5       Z
+- [x] BTBFS                 2       Z
+#### Tree Traversal---------------------
+- [x] CompareBinaryTrees    1       Z
+- [x] BFSGraphMatrix        15      rewrite test using bun            
+- [x] DFSGraphList          4       
+- [x] DFSOnBST              2             
+- [x] DijkstralList         20      rewrite tests using bun     
+- [x] LRU                   26      rewrite tests using bun
+- [x] Map                   60      added linear probing for collision resolution, now it doesn't suck
+- [x] MinHeap               11  
+- [x] Trie                  9     
+#### Challenge-------------------------
+- [x] MazeSolver            5     Z
+- [x] TwoCrystalBalls       1     Z
+#### total  -------------------  xxm   XX ZERO DEATHS
+
+
+--------------------------------------
+
+--------------------------------------
 ### new day
 #### Lists------------------------------
 - [ ] ArrayList             
