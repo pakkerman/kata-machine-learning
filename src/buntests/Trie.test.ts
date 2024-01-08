@@ -151,6 +151,14 @@ describe("Trie Tests", () => {
       trie.insert(words[i])
     }
 
-    console.log(trie.find("a"))
+    const a = trie.find("a")
+    expect(a).toEqual([
+      "Adalberto",
+      "Angelica",
+      "Angeline",
+      "Abe",
+      "Aurore",
+      "Alexandrea",
+    ])
   })
 })

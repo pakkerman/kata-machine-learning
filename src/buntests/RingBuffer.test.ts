@@ -29,6 +29,7 @@ describe("RingBuffer", () => {
   })
 
   test("Get", () => {
+    console.log(buffer.buffer)
     expect(buffer.get(0)).toBe(undefined)
     buffer.push(1)
     buffer.push(2)
