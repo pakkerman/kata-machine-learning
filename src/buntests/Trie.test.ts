@@ -151,7 +151,8 @@ describe("Trie Tests", () => {
       trie.insert(words[i])
     }
 
-    const a = trie.find("a")
+    // case sensitive
+    const a = trie.find("A")
     expect(a).toEqual([
       "Adalberto",
       "Angelica",

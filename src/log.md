@@ -2656,6 +2656,41 @@ total  -------------------  158m   XX ZERO DEATHS
 #### total  -------------------  167m   XX ZERO DEATHS
 
 
+### Jan 05 Day 87
+#### Lists------------------------------
+- [x] ArrayList             12
+- [x] Ring Buffer           7
+#### Linke Lists------------------------
+- [x] SinglyLinkedList      8       Z
+- [x] DoublyLinkedLists     4       Z
+- [x] Queue                 8       
+- [x] Stack                 3       Z
+#### Sort-------------------------------
+- [x] QuickSort             3       
+- [x] MergeSort             5
+- [x] InsertionSort         1       Z
+- [x] BubbleSort            1       
+#### Search-----------------------------
+- [x] BinarySearchList      1       Z
+- [x] BTBFS                 2       Z
+#### Tree Traversal---------------------
+- [x] CompareBinaryTrees    1       Z
+- [x] BFSGraphMatrix        4       Z
+- [x] DFSGraphList          3       Z
+- [x] DFSOnBST              3       Z
+- [x] DijkstralList         12           
+- [x] LRU                   10      Z
+- [x] Map                   49         
+- [x] MinHeap               30
+- [x] Trie                  15      
+#### Challenge-------------------------
+- [x] MazeSolver            5       Z
+- [x] TwoCrystalBalls       1       Z
+#### total  -------------------  188m   XX ZERO DEATHS
+
+
+
+
 ### Day
 #### Lists------------------------------
 - [ ] ArrayList             

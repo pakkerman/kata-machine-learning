@@ -85,7 +85,8 @@ describe("Map() test", () => {
       "Samir",
     ]
 
-    for (let item of data) map.set(item, +(Math.random() * 10000).toFixed(0))
+    for (let i = 0; i < data.length; i++)
+      map.set(data[i], +(Math.random() * 10000).toFixed(0))
 
     let emptyBucketCount = 0
     let bucketWithMoreThanOneItem = 0
