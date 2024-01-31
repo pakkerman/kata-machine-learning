@@ -29,7 +29,7 @@ describe("Map() test", () => {
     map.set(11, 69)
   })
 
-  test("testing 100 items", () => {
+  test("testing 50 items", () => {
     const map = new Map()
 
     const data = [
@@ -88,10 +88,8 @@ describe("Map() test", () => {
     for (let i = 0; i < data.length; i++)
       map.set(data[i], +(Math.random() * 10000).toFixed(0))
 
-    let emptyBucketCount = 0
     let bucketWithMoreThanOneItem = 0
     for (let i = 0; i < map.store.length; i++) {
-      if (map.store[i].length === 0) emptyBucketCount++
       if (map.store[i].length > 1) bucketWithMoreThanOneItem++
     }
 
@@ -102,11 +100,11 @@ describe("Map() test", () => {
       "\nmap size:",
       map.store.length,
       "\nEmpty Buckets:",
-      emptyBucketCount,
-      "\nBucket with more than one items",
-      bucketWithMoreThanOneItem
+      map.store.length - map.size(),
+      "\nBucket with more than one items:",
+      map.store.filter((item) => item.length > 1).length
     )
 
-    console.log(map.get("Franey"))
+    console.log("map.get('Grayson') =>", map.get("Grayson"))
   })
 })
