@@ -2656,7 +2656,7 @@ total  -------------------  158m   XX ZERO DEATHS
 #### total  -------------------  167m   XX ZERO DEATHS
 
 
-### Jan 05 Day 87
+### Jan 15 Day 87
 #### Lists------------------------------
 - [x] ArrayList             12
 - [x] Ring Buffer           7
@@ -2689,7 +2689,7 @@ total  -------------------  158m   XX ZERO DEATHS
 #### total  -------------------  188m   XX ZERO DEATHS
 
 
-### Jan 05 Day 88
+### Jan 31 Day 88
 #### Lists------------------------------
 - [x] ArrayList             10      Z
 - [x] Ring Buffer           7       Z
@@ -2720,6 +2720,39 @@ total  -------------------  158m   XX ZERO DEATHS
 - [x] MazeSolver            4       Z
 - [x] TwoCrystalBalls       2       Z
 #### total  -------------------  161m
+
+
+### Feb 6 Day 89
+#### Lists------------------------------
+- [x] ArrayList             15      
+- [x] Ring Buffer           8       Z
+#### Linke Lists------------------------
+- [x] SinglyLinkedList      10
+- [x] DoublyLinkedLists     10      
+- [x] Queue                 6       Z
+- [x] Stack                 3       Z
+#### Sort-------------------------------
+- [x] QuickSort             8       
+- [x] MergeSort             6       Z
+- [x] InsertionSort         2       Z
+- [x] BubbleSort            2       Z
+#### Search-----------------------------
+- [x] BinarySearchList      2       Z
+- [x] BTBFS                 2       Z
+#### Tree Traversal---------------------
+- [x] CompareBinaryTrees    3       Z
+- [x] BFSGraphMatrix        3       Z
+- [x] DFSGraphList          3       Z
+- [x] DFSOnBST              3       Z
+- [x] DijkstralList         10      
+- [x] LRU                   9       Z
+- [x] Map                   15      
+- [x] MinHeap               20     
+- [x] Trie                  15      Z
+#### Challenge-------------------------
+- [x] MazeSolver            6       Z
+- [x] TwoCrystalBalls       3       Z
+#### total  -------------------  164m   XX ZERO DEATHS
 
 
 ### Day
@@ -2753,6 +2786,7 @@ total  -------------------  158m   XX ZERO DEATHS
 - [ ] MazeSolver            
 - [ ] TwoCrystalBalls       
 #### total  -------------------  xxm   XX ZERO DEATHS
+
 
 
 ### Day

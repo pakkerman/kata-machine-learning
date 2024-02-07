@@ -1,6 +1,7 @@
 import { describe, test, expect } from "bun:test"
 import bubble_sort from "@code/BubbleSort"
 
+console.clear()
 const arr = [
   22733, 34627, 88111, 34234, 97469, 18375, 69999, 25553, 16969, 58410, 40763,
   6944, 28233, 27107, 68812, 91135, 26734, 56060, 23583, 96869, 70063, 49,

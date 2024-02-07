@@ -1,6 +1,8 @@
 import { test, describe, expect } from "bun:test"
 import Map from "@code/Map"
 
+console.clear()
+
 describe("Map() test", () => {
   test("testing operations", () => {
     const map = new Map()
