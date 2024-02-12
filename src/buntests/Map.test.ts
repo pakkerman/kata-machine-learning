@@ -107,6 +107,8 @@ describe("Map() test", () => {
       map.store.filter((item) => item.length > 1).length
     )
 
-    console.log("map.get('Grayson') =>", map.get("Grayson"))
+    console.log("map.get('Grayson') =>", map.delete("Grayson"))
+    console.log("map.get('Kirk') =>", map.delete("Kirk"))
+    console.log("map.get('Reta') =>", map.delete("Reta"))
   })
 })

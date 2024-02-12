@@ -29,9 +29,15 @@ describe("Quick Sort test", function () {
     // expect(hugeNumberArray).toEqual(hugeNumberArray.sort())
   })
 
-  // test(() => {
-  //   const sorted = huge.toSorted((a, b) => a - b)
-  //   quick_sort(huge)
-  //   expect(huge).toEqual(sorted)
-  // })
+  test(() => {
+    const sorted = huge.toSorted((a, b) => a - b)
+    quick_sort(huge)
+    expect(huge).toEqual(sorted)
+  })
+
+  test(() => {
+    const array = [7, 2, 69, 1, 42, 8, 5]
+    quick_sort(array)
+    console.log(array)
+  })
 })

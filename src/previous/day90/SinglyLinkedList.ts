@@ -1,4 +1,4 @@
-export default class ArrayList<T> {
+export default class SinglyLinkedList<T> {
     public length: number;
 
     
