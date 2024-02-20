@@ -1,6 +1,8 @@
 import { describe, test, expect } from "bun:test"
 import LRU from "@code/LRU"
 
+console.clear()
+
 const lru = new LRU(3)
 const item = [
   { key: "A", value: "1" },
@@ -22,8 +24,6 @@ describe("LRU test", () => {
     lru.update(item[1].key, item[1].value)
     lru.update(item[2].key, item[2].value)
     lru.update(item[3].key, item[3].value)
-
-    // console.log(lru.nodes)
   })
 
   test("get()", () => {

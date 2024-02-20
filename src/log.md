@@ -2789,6 +2789,40 @@ total  -------------------  158m   XX ZERO DEATHS
 
 
 
+### Feb 19 Day 91
+#### Lists------------------------------
+- [x] ArrayList             10      Z
+- [x] Ring Buffer           5       Z
+#### Linke Lists------------------------
+- [x] SinglyLinkedList      10      Z
+- [x] DoublyLinkedLists     11      Z
+- [x] Queue                 2       Z
+- [x] Stack                 6       Z
+#### Sort-------------------------------
+- [x] QuickSort             45      getting the medium of 3 working
+- [x] MergeSort             3       Z
+- [x] InsertionSort         1       Z
+- [x] BubbleSort            1       Z
+#### Search-----------------------------
+- [x] BinarySearchList      4
+- [x] BTBFS                 2       Z
+#### Tree Traversal---------------------
+- [x] CompareBinaryTrees    2       Z
+- [x] BFSGraphMatrix        6       Z
+- [x] DFSGraphList          6       Z
+- [x] DFSOnBST              2       Z
+- [x] DijkstralList         16            
+- [x] LRU                   14      
+- [x] Map                   40      
+- [x] MinHeap               20      
+- [x] Trie                  9       Z
+#### Challenge-------------------------
+- [x] MazeSolver            5       Z
+- [x] TwoCrystalBalls       2       Z
+#### total  -------------------  222m   XX ZERO DEATHS
+
+
+
 ### Day
 #### Lists------------------------------
 - [ ] ArrayList             
@@ -2820,6 +2854,7 @@ total  -------------------  158m   XX ZERO DEATHS
 - [ ] MazeSolver            
 - [ ] TwoCrystalBalls       
 #### total  -------------------  xxm   XX ZERO DEATHS
+
 
 
 
