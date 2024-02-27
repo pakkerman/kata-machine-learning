@@ -2823,36 +2823,36 @@ total  -------------------  158m   XX ZERO DEATHS
 
 
 
-### Day
+### Feb 27 Day 92
 #### Lists------------------------------
-- [ ] ArrayList             
-- [ ] Ring Buffer           
+- [x] ArrayList             7       Z
+- [x] Ring Buffer           5       Z
 #### Linke Lists------------------------
-- [ ] SinglyLinkedList      
-- [ ] DoublyLinkedLists     
-- [ ] Queue                 
-- [ ] Stack                 
+- [x] SinglyLinkedList      11
+- [x] DoublyLinkedLists     6       Z
+- [x] Queue                 vim
+- [x] Stack                 vim
 #### Sort-------------------------------
-- [ ] QuickSort             
-- [ ] MergeSort             
-- [ ] InsertionSort         
-- [ ] BubbleSort            
+- [x] QuickSort             10
+- [x] MergeSort             5       Z
+- [x] InsertionSort         1       Z
+- [x] BubbleSort            1       Z
 #### Search-----------------------------
-- [ ] BinarySearchList      
-- [ ] BTBFS                 
+- [x] BinarySearchList      2       Z
+- [x] BTBFS                 2       Z
 #### Tree Traversal---------------------
-- [ ] CompareBinaryTrees    
-- [ ] BFSGraphMatrix        
-- [ ] DFSGraphList          
-- [ ] DFSOnBST              
-- [ ] DijkstralList         
-- [ ] LRU                   
-- [ ] Map                   
-- [ ] MinHeap               
-- [ ] Trie                  
+- [x] CompareBinaryTrees    1       Z
+- [x] BFSGraphMatrix        5       
+- [x] DFSGraphList          4       Z
+- [x] DFSOnBST              2       Z
+- [x] DijkstralList         11
+- [x] LRU                   vim
+- [x] Map                   14      Z
+- [x] MinHeap               vim
+- [x] Trie                  vim
 #### Challenge-------------------------
-- [ ] MazeSolver            
-- [ ] TwoCrystalBalls       
+- [x] MazeSolver            vim
+- [x] TwoCrystalBalls       vim
 #### total  -------------------  xxm   XX ZERO DEATHS
 
 
