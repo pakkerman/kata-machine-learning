@@ -1,4 +1,4 @@
-### May 10 Day 95
+### May 10 Day 96
 #### Lists------------------------------
 - [x] ArrayList             vim
 - [x] Ring Buffer           vim
