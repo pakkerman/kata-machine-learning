@@ -1,10 +1,10 @@
-### new day 
+### day 97
 #### Lists------------------------------
-- [ ] ArrayList             
-- [ ] Ring Buffer           
+- [x] ArrayList             
+- [x] Ring ruffer           
 #### Linke Lists------------------------
-- [ ] SinglyLinkedList      
-- [ ] DoublyLinkedLists     
+- [x] SinglyLinkedList      
+- [x] DoublyLinkedLists     
 - [ ] Queue                 
 - [ ] Stack                 
 #### Sort-------------------------------
