@@ -1,10 +1,10 @@
-### day 97
+### day 98
 #### Lists------------------------------
-- [x] ArrayList             
-- [x] Ring ruffer           
+- [ ] ArrayList             
+- [ ] Ring ruffer           
 #### Linke Lists------------------------
-- [x] SinglyLinkedList      
-- [x] DoublyLinkedLists     
+- [ ] SinglyLinkedList      
+- [ ] DoublyLinkedLists     
 - [ ] Queue                 
 - [ ] Stack                 
 #### Sort-------------------------------
@@ -17,7 +17,7 @@
 - [ ] BTBFS                 
 #### Tree Traversal---------------------
 - [ ] CompareBinaryTrees    
-- [ ] BFSGraphMatrix        
+- [ ] BFSGraphMatri         
 - [ ] DFSGraphList          
 - [ ] DFSOnBST              
 - [ ] DijkstralList         
