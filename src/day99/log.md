@@ -1,7 +1,7 @@
-### day 98
+### day 99
 #### Lists------------------------------
 - [ ] ArrayList             
-- [ ] Ring ruffer           
+- [ ] RingBuffer           
 #### Linke Lists------------------------
 - [ ] SinglyLinkedList      
 - [ ] DoublyLinkedLists     
