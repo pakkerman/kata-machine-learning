@@ -1,4 +1,4 @@
-### day 99
+### day 100
 #### Lists------------------------------
 - [ ] ArrayList             
 - [ ] RingBuffer           
@@ -17,7 +17,7 @@
 - [ ] BTBFS                 
 #### Tree Traversal---------------------
 - [ ] CompareBinaryTrees    
-- [ ] BFSGraphMatri         
+- [ ] BFSGraphMatrix        
 - [ ] DFSGraphList          
 - [ ] DFSOnBST              
 - [ ] DijkstralList         
