@@ -1,21 +1,87 @@
-export default class Map<T extends (string | number), V> {
-    
+type Item<K, V> = { key: K; value: V }
+type Bucket<K, V> = Array<Item<K, V>>
 
-    
+export default class Map<T extends string | number, V> {
+  private length: number
+  private capacity: number
+  private store: Array<Bucket<T, V>>
+  constructor() {
+    this.length = 0
+    this.capacity = 3
+    this.store = Array.from({ length: this.capacity }, () => [])
+  }
 
-    constructor() {
+  get(key: T): V | undefined {
+    const hash = this.hash(key)
+    const bucket = this.store[hash]
+
+    for (let i = 0; i < bucket.length; i++) {
+      if (bucket[i].key === key) {
+        return bucket[i].value
+      }
+    }
+    return undefined
+  }
+  set(key: T, value: V): void {
+    let hash = this.hash(key)
+    console.log(hash)
+    let bucket = this.store[hash]
+
+    for (let i = 0; i < bucket.length; i++) {
+      if (bucket[i].key === key) {
+        bucket[i].value === value
+        return
+      }
     }
 
-    get(key: T): V | undefined {
+    this.length++
+    this.resize()
 
-}
-    set(key: T, value: V): void {
+    hash = this.hash(key)
+    this.store[hash].push({ key, value })
+  }
 
-}
-    delete(key: T): V | undefined {
+  delete(key: T): V | undefined {
+    const hash = this.hash(key)
+    const bucket = this.store[hash]
+    let out
+    for (let i = 0; i < bucket.length; i++) {
+      if (bucket[i].key === key) {
+        out = bucket[i].value
+        this.length--
+        bucket[i] = bucket[bucket.length - 1]
+        bucket.pop()
+        return out
+      }
+    }
+    return out
+  }
 
-}
-    size(): number {
+  size(): number {
+    return this.length
+  }
 
+  private hash(key: T): number {
+    return (
+      key
+        .toString()
+        .split("")
+        .reduce((acc, curr) => acc + curr.charCodeAt(0) + 37, 0) % this.capacity
+    )
+  }
+
+  private resize(): void {
+    if (this.length < this.capacity) return
+
+    const store = this.store
+    this.store = Array.from({ length: (this.capacity *= 2) }, () => [])
+    for (let i = 0; i < store.length; i++) {
+      const bucket = store[i]
+      for (let k = 0; k < bucket.length; k++) {
+        const hash = this.hash(bucket[k].key)
+        this.store[hash].push(bucket[k])
+      }
+    }
+  }
 }
-}
+
