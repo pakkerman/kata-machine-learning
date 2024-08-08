@@ -105,7 +105,11 @@ describe("Map() test", () => {
     //   map.store.filter((item) => item.length > 1).length
     // )
 
-    console.log(map.store)
+    map.store.forEach((item, idx) =>
+      console.log(
+        `${idx}: [ ${item.map((item) => `${item.key}: ${item.value}`)} ]`
+      )
+    )
     console.log(`length: ${
       map.length
     }\nlength by counting store item:${map.store.reduce(
@@ -116,19 +120,5 @@ describe("Map() test", () => {
     console.log("map.get('Grayson') =>", map.delete("Grayson"))
     console.log("map.get('Kirk') =>", map.delete("Kirk"))
     console.log("map.get('Reta') =>", map.delete("Reta"))
-  })
-
-  test("test same keys", () => {
-    const map = new Map()
-    map.set("boo", 1)
-    console.log(map.store)
-    map.set("baz", 2)
-    console.log(map.store)
-    map.set("bar", 3)
-    console.log(map.store)
-    map.set("boo", 4)
-    console.log(map.store)
-    map.set("boo", 5)
-    console.log(map.store)
   })
 })
