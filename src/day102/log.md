@@ -1,31 +1,31 @@
 ### day 102
 #### Lists------------------------------
-- [ ] ArrayList             
-- [ ] RingBuffer           
+- [x] ArrayList             
+- [x] RingBuffer           
 #### Linke Lists------------------------
-- [ ] SinglyLinkedList      
-- [ ] DoublyLinkedLists     
-- [ ] Queue                 
-- [ ] Stack                 
+- [x] SinglyLinkedList      
+- [x] DoublyLinkedLists     
+- [x] Queue                 
+- [x] Stack                 
 #### Sort-------------------------------
-- [ ] QuickSort             
-- [ ] MergeSort             
-- [ ] InsertionSort         
-- [ ] BubbleSort            
+- [x] QuickSort             
+- [x] MergeSort             
+- [x] InsertionSort         
+- [x] BubbleSort            
 #### Search-----------------------------
-- [ ] BinarySearchList      
-- [ ] BTBFS                 
+- [x] BinarySearchList      
+- [x] BTBFS                 
 #### Tree Traversal---------------------
-- [ ] CompareBinaryTrees    
-- [ ] BFSGraphMatrix        
-- [ ] DFSGraphList          
-- [ ] DFSOnBST              
-- [ ] DijkstralList         
-- [ ] LRU                   
-- [ ] Map                   
-- [ ] MinHeap               
-- [ ] Trie                  
+- [x] CompareBinaryTrees    
+- [x] BFSGraphMatrix        
+- [x] DFSGraphList          
+- [x] DFSOnBST              
+- [x] DijkstralList         
+- [x] LRU                   
+- [x] Map                   
+- [x] MinHeap               
+- [x] Trie                  
 #### Challenge-------------------------
-- [ ] MazeSolver            
-- [ ] TwoCrystalBalls       
+- [x] MazeSolver            
+- [x] TwoCrystalBalls       
 #### total  -------------------  xxm   XX ZERO DEATHS

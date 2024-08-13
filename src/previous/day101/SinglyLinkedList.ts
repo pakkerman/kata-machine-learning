@@ -46,6 +46,7 @@ export default class SinglyLinkedList<T> {
     this.length++
     if (!this.tail) {
       this.tail = this.head = node
+      return
     }
 
     this.tail.next = node
@@ -97,4 +98,3 @@ export default class SinglyLinkedList<T> {
     return curr
   }
 }
-
