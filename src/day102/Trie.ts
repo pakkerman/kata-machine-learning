@@ -44,7 +44,7 @@ export default class Trie {
       if (!child) return false
       if (!recurse(child, idx + 1)) return false
 
-      child.children.delete(char)
+      curr.children.delete(char)
 
       return curr.children.size === 0
     }
@@ -74,4 +74,3 @@ export default class Trie {
     }
   }
 }
-
