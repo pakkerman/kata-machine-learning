@@ -1,11 +1,12 @@
 package data_structs
 
-//      (1) --- (4) ---- (5)
-//    /  |       |       /|
+//	  (1) --- (4) ---- (5)
+//	/  |       |       /|
+//
 // (0)   | ------|------- |
-//    \  |/      |        |
-//      (2) --- (3) ---- (6)
-
+//
+//	\  |/      |        |
+//	  (2) --- (3) ---- (6)
 var List1 WeightedAdjacencyList = WeightedAdjacencyList{
 	{
 		{To: 1, Weight: 3},
