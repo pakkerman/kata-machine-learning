@@ -1,4 +1,4 @@
-### day 02 of Go
+### day 102
 
 #### Lists------------------------------
 
@@ -21,12 +21,12 @@
 
 #### Search-----------------------------
 
-- [ ] BinarySearchList
-- [ ] BTBFS
+- [x] BinarySearchList
+- [x] BTBFS
 
 #### Tree Traversal---------------------
 
-- [ ] CompareBinaryTrees
+- [x] CompareBinaryTrees
 - [ ] BFSGraphMatrix
 - [ ] DFSGraphList
 - [ ] DFSOnBST
