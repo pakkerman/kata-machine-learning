@@ -85,25 +85,9 @@ describe("Map() test", () => {
       "Samir",
     ]
 
-    for (let i = 0; i < data.length; i++)
+    for (let i = 0; i < data.length; i++) {
       map.set(data[i], +(Math.random() * 10000).toFixed(0))
-
-    // let bucketWithMoreThanOneItem = 0
-    // for (let i = 0; i < map.store.length; i++) {
-    //   if (map.store[i].length > 1) bucketWithMoreThanOneItem++
-    // }
-
-    // for (let bucket of map.store) console.log(JSON.stringify(bucket))
-    // console.log(
-    //   "map data length:",
-    //   map.size(),
-    //   "\nmap size:",
-    //   map.store.length,
-    //   "\nEmpty Buckets:",
-    //   map.store.length - map.size(),
-    //   "\nBucket with more than one items:",
-    //   map.store.filter((item) => item.length > 1).length
-    // )
+    }
 
     map.store.forEach((item, idx) =>
       console.log(

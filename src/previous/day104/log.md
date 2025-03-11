@@ -1,4 +1,4 @@
-### day 102
+### day 104
 
 #### Lists------------------------------
 
@@ -27,18 +27,18 @@
 #### Tree Traversal---------------------
 
 - [x] CompareBinaryTrees
-- [ ] BFSGraphMatrix
-- [ ] DFSGraphList
-- [ ] DFSOnBST
-- [ ] DijkstralList
-- [ ] LRU
-- [ ] Map
-- [ ] MinHeap
-- [ ] Trie
+- [x] BFSGraphMatrix
+- [x] DFSGraphList
+- [x] DFSOnBST
+- [x] DijkstralList
+- [x] LRU
+- [x] Map
+- [x] MinHeap
+- [x] Trie
 
 #### Challenge-------------------------
 
-- [ ] MazeSolver
-- [ ] TwoCrystalBalls
+- [x] MazeSolver
+- [x] TwoCrystalBalls
 
 #### total ------------------- xxm XX ZERO DEATHS

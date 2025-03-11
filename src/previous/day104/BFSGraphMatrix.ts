@@ -6,6 +6,7 @@ export default function bfs(
   const queue: number[] = [source]
   const seen: boolean[] = new Array(graph.length).fill(false)
   const prev: number[] = new Array(graph.length).fill(-1)
+
   while (queue.length) {
     const curr = queue.shift()!
     if (curr === needle) break
@@ -23,15 +24,14 @@ export default function bfs(
 
   if (prev[needle] === -1) return null
 
-  let out: number[] = []
+  const out: number[] = []
   let curr = needle
-  while (prev[curr] != -1) {
+  while (prev[curr] !== -1) {
     out.push(curr)
     curr = prev[curr]
   }
 
   out.push(source)
-  out.reverse()
-  return out
+  return out.reverse()
 }
 
