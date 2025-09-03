@@ -75,4 +75,3 @@ export default class MinHeap {
     return [i, this.data[i]]
   }
 }
-
